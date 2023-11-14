@@ -12,7 +12,7 @@ export default function Introducao() {
             <Nav />
             <Container >
                 <main className="intro m-3 p-4">
-                    <Container className="m-3 d-flex align-items-center">
+                    <Container className="m-3 d-flex align-items-center intro-header">
                         <h3>Olá, eu sou Thomas e este é meu Receituário.</h3>
                         <table className="ms-auto me-3 table-receitas">
                             <tbody>
@@ -27,11 +27,10 @@ export default function Introducao() {
                             </tbody>
                         </table>
                     </Container>
-
                     
                     <Container className="text-center mt-4 pt-4">
                         <h1>Receitas</h1>
-                        <div className="mt-4 d-flex justify-content-evenly">
+                        <div className="mt-4 d-flex justify-content-evenly cards">
                             <span>
                                 <h5>HTML, CSS, JS</h5>
                                 <img src={htmlIcon} alt="" />
@@ -45,6 +44,10 @@ export default function Introducao() {
                                 <img src={nextIcon} alt="" />
                             </span>
                         </div>
+                    </Container>
+
+                    <Container className="text-center mt-4 pt-4">
+                        <h1>Projetos</h1>
                     </Container>
                 </main>
             </Container>

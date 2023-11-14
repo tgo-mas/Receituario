@@ -17,6 +17,9 @@ span{
     height: 16rem;
     padding: 40px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 span h4{
@@ -34,4 +37,27 @@ span:hover img{
 
 span:hover{
     background-color: #2224;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .intro-header{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 !important;
+    }
+    
+    .intro-header table{
+        margin: 20px 0 0 0 !important;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    span{
+        width: 70%;
+    }
 }

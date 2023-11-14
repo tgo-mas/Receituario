@@ -12,7 +12,7 @@ export default function Nav() {
 
     return (
         <>
-            <Navbar expand="lg" className="navbar bar" data-bs-theme="dark">
+            <Navbar expand="lg" className="navbar bar d-flex-sm" data-bs-theme="dark">
                 <img src={hamburguer} className="hamb" onClick={showSidebar}></img>
                 <Container className="d-flex justify-content-center">
                     <Navbar.Brand href="/" className="title">Receituário</Navbar.Brand>
@@ -20,6 +20,7 @@ export default function Nav() {
             </Navbar>
 
             <Offcanvas show={show} onHide={hideSidebar} className="sidebar">
+                <Offcanvas.Header closeButton/>
                 <Offcanvas.Body>
                     <ul className="nav-list">
                         <li><a href="#">Introdução</a></li>
