@@ -28,6 +28,7 @@ export default function Introducao() {
                         </table>
                     </Container>
 
+                    
                     <Container className="text-center mt-4 pt-4">
                         <h1>Receitas</h1>
                         <div className="mt-4 d-flex justify-content-evenly">
