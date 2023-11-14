@@ -1,0 +1,50 @@
+
+*{
+    transition: ease 0.3s;
+}
+
+.bar{
+    background-color: #8737EF98;
+}
+
+.title {
+    font-weight: 550;
+    font-family: 'Inter', Arial;
+}
+
+.title:hover{
+    color: #6010C0;
+}
+
+.hamb{
+    height: 20px;
+    margin-left: 20px;
+    filter: invert();
+}
+
+.hamb:hover{
+    filter: invert(0.3);
+    cursor: pointer;
+}
+
+.sidebar{
+    background-color: #9747FF;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-list li{
+    margin-top: 1.5em
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: 550;
+}
+
+.nav-list a:hover{
+    color:#CCCCCC
+}

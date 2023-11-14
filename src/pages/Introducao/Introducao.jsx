@@ -1,9 +1,13 @@
+import { Container } from "react-bootstrap";
+import Nav from "../../components/Nav/Nav";
 
-
-export default function Introducao(){
+export default function Introducao() {
     return (
-        <div>
-            <h1>Introdução</h1>
-        </div>
+        <>
+            <Nav />
+            <Container>
+                <h1>Introdução</h1>
+            </Container>
+        </>
     );
 }
