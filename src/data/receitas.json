@@ -77,12 +77,36 @@
         "titulo": "Receita 8 - Promessas",
         "links": [
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/promise?authuser=0",
-            "https://github.com/tgo-mas/PWeb/tree/main/ReceitaPromise"
+            "https://github.com/tgo-mas/PWeb/tree/main/Receita8"
         ],
         "tecnologias": [
             "HTML",
             "CSS",
             "JavaScript"
+        ]
+    },{
+        "titulo": "Receita 9 - Introdução ao ReactJS",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-react-00?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/React/ReactIntro"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ]
+    },{
+        "titulo": "Receita 10 - Introdução ao JSX",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-react-01?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/React/React2"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
         ]
     }
 ]
