@@ -11,7 +11,7 @@ export default function Introducao() {
         <>
             <Nav />
             <Container >
-                <main className="intro m-3 p-4">
+                <main className="intro mt-3 p-4">
                     <Container className="m-3 d-flex align-items-center intro-header">
                         <h3>Olá, eu sou Thomas e este é meu Receituário.</h3>
                         <table className="ms-auto me-3 table-receitas">
@@ -28,26 +28,34 @@ export default function Introducao() {
                         </table>
                     </Container>
                     
-                    <Container className="text-center mt-4 pt-4">
+                    <Container className="card-section text-center mt-4 pt-4">
                         <h1>Receitas</h1>
                         <div className="mt-4 d-flex justify-content-evenly cards">
                             <span>
                                 <h5>HTML, CSS, JS</h5>
-                                <img src={htmlIcon} alt="" />
+                                <img src={htmlIcon} alt="HTML, CSS e JS" />
                             </span>
                             <span>
                                 <h5>React</h5>
-                                <img src={reactIcon} alt="" />
+                                <img src={reactIcon} alt="ReactJS" />
                             </span>
                             <span>
                                 <h5>React & NextJS</h5>
-                                <img src={nextIcon} alt="" />
+                                <img src={nextIcon} alt="React e NextJS" />
                             </span>
                         </div>
+                        <Container className="outros"><h3>Outros projetos</h3></Container>
                     </Container>
 
-                    <Container className="text-center mt-4 pt-4">
-                        <h1>Projetos</h1>
+                    <Container className=" text-center mt-4">
+                        <h1>Sobre</h1>
+                        <article className="text-start mt-4 p-4">
+                            <p>Este projeto se trata de um portfólio utilizado para avaliação da disciplina de Programação Web, bem como portfólio pessoal para outros projetos.
+                                Ele foi construído em JavaScript utilizando React e React-Bootstrap.</p>
+                            <p>Olá, me chamo Thomas e sou estudante do curso de Bacharelado em Sistemas de Informação, pela UFRN, campus Caicó.
+                            </p>
+                            <img src="" alt="" />
+                        </article>
                     </Container>
                 </main>
             </Container>

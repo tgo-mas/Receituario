@@ -12,6 +12,24 @@ th, td {
     padding: 10px
 }
 
+.card-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.outros{
+    margin: 20px;
+    width: 25%;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.outros:hover{
+    background-color: #9747FF80;
+    cursor: pointer;
+}
+
 span{
     width: 25%;
     height: 16rem;
@@ -28,7 +46,7 @@ span h4{
 
 span img{
     width: 100px;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 span:hover img{
@@ -36,11 +54,11 @@ span:hover img{
 }
 
 span:hover{
-    background-color: #2224;
+    background-color: #9747FF80;
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
     .intro-header{
         flex-direction: column;
         text-align: center;

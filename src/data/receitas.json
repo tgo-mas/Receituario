@@ -1,0 +1,88 @@
+[
+    {
+        "titulo": "Receita 1 - HTML Básico",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/html-básico?authuser=0",
+            "https://github.com/tgo-mas/PWeb/blob/main/Receita1.html"
+        ],
+        "tecnologias": [
+            "HTML"
+        ]
+    },{
+        "titulo": "Receita 2 - CSS Básico",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-html-css?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/Receita2"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS"
+        ]
+    },{
+        "titulo": "Receita 3 - JavaScript Básico",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-html-js1?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/Receita3"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },{
+        "titulo": "Receita 4 - Arrays em JavaScript",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-html-js2?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/Receita4"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },{
+        "titulo": "Receita 5 - Arrow e Callback functions",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/js-arrow?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/Receita5"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },{
+        "titulo": "Receita 6 - Objetos JSON",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/json4?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/Receita6"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },{
+        "titulo": "Receita 7 - Função fetch()",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/json5?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/Receita7"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },{
+        "titulo": "Receita 8 - Promessas",
+        "links": [
+            "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/promise?authuser=0",
+            "https://github.com/tgo-mas/PWeb/tree/main/ReceitaPromise"
+        ],
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }
+]
