@@ -4,8 +4,11 @@ import htmlIcon from "../../assets/icon _Code_.svg"
 import reactIcon from "../../assets/icon _react_.svg"
 import nextIcon from "../../assets/icon _nextjs_.svg"
 import "./ListaReceitas.css";
+import { useNavigate } from "react-router-dom";
 
 export default function ListaReceitas() {
+    const navigate = useNavigate();
+
     return (
         <main className="main-container mt-4 pt-3">
             <Container className="ms-4 p-4">
@@ -21,7 +24,7 @@ export default function ListaReceitas() {
                     </span> */}
                 </div>
                 <Container className="lista-container">
-                    {receitas.map((receita, index) => <span className="receita-card" key={index}><h4>{receita.titulo}</h4></span>)}
+                    {receitas.map((receita) => <span className="receita-card" onClick={() => navigate(`/receita/${receita.id}`)} key={receita.id}><h4>{receita.titulo}</h4></span>)}
                 </Container>
             </Container>
         </main>

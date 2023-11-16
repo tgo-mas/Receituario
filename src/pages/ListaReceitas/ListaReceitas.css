@@ -43,5 +43,10 @@
     padding: 10px;
     margin: 0.75em;
     margin-right: 5%;
-    background-color: #AAA;
+    background-color: #BBB;
+    cursor: pointer;
+}
+
+.receita-card:hover{
+    background-color: #9747FFAA;
 }
