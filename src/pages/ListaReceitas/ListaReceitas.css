@@ -1,3 +1,47 @@
 .main-container {
     background-color: #E6E6E6;
 }
+
+.filtros{
+    display: flex;
+    background-color: #9747FF;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.filtros h5{
+    font-weight: 400;
+    margin-left: 1rem;
+    color: #EDE
+}
+
+.filtros img{
+    width: 30px;
+    filter: invert(0.6);
+}
+
+.active{
+    filter: invert(0.85) !important;
+}
+
+.filtros div{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lista-container {
+    margin-top: 2em;
+}
+
+.receita-card{
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0.75em;
+    margin-right: 5%;
+    background-color: #AAA;
+}

@@ -31,15 +31,15 @@ export default function Introducao() {
             <Container className="card-section text-center mt-4 pt-4">
                 <h1><Link to="/receitas" style={{textDecoration: "none", color: "#333"}}>Receitas</Link></h1>
                 <div className="mt-4 d-flex justify-content-evenly cards">
-                    <span onClick={() => navigate("/receitas")}>
+                    <span className="card" onClick={() => navigate("/receitas")}>
                         <h5>HTML, CSS, JS</h5>
                         <img src={htmlIcon} alt="HTML, CSS e JS" />
                     </span>
-                    <span>
+                    <span className="card">
                         <h5>React</h5>
                         <img src={reactIcon} alt="ReactJS" />
                     </span>
-                    <span>
+                    <span className="card">
                         <h5>React & NextJS</h5>
                         <img src={nextIcon} alt="React e NextJS" />
                     </span>
