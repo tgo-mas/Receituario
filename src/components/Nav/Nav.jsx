@@ -23,10 +23,10 @@ export default function Nav() {
                 <Offcanvas.Header closeButton/>
                 <Offcanvas.Body>
                     <ul className="nav-list">
-                        <li><a href="#">Introdução</a></li>
-                        <li><a href="#">Receitas</a></li>
+                        <li><a href="/">Introdução</a></li>
+                        <li><a href="/receitas">Receitas</a></li>
                         <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="/#sobre">Sobre</a></li>
                     </ul>
                 </Offcanvas.Body>
             </Offcanvas>

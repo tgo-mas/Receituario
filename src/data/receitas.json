@@ -3,6 +3,7 @@
         "id": 1,
         "titulo": "Receita 1 - HTML Básico",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita1",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/html-básico?authuser=0",
             "https://github.com/tgo-mas/PWeb/blob/main/Receita1.html"
         ],
@@ -13,6 +14,7 @@
         "id": 2,
         "titulo": "Receita 2 - CSS Básico",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita2/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-html-css?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/Receita2"
         ],
@@ -24,6 +26,7 @@
         "id": 3,
         "titulo": "Receita 3 - JavaScript Básico",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita3/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-html-js1?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/Receita3"
         ],
@@ -36,6 +39,7 @@
         "id": 4,
         "titulo": "Receita 4 - Arrays em JavaScript",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita4/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-html-js2?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/Receita4"
         ],
@@ -48,6 +52,7 @@
         "id": 5,
         "titulo": "Receita 5 - Arrow e Callback functions",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita5/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/js-arrow?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/Receita5"
         ],
@@ -60,6 +65,7 @@
         "id": 6,
         "titulo": "Receita 6 - Objetos JSON",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita6/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/json4?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/Receita6"
         ],
@@ -72,6 +78,7 @@
         "id": 7,
         "titulo": "Receita 7 - Função fetch()",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita7/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/json5?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/Receita7"
         ],
@@ -84,6 +91,7 @@
         "id": 8,
         "titulo": "Receita 8 - Promessas",
         "links": [
+            "https://tgo-mas.github.io/PWeb/Receita8/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/promise?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/Receita8"
         ],
@@ -96,6 +104,7 @@
         "id": 9,
         "titulo": "Receita 9 - Introdução ao ReactJS",
         "links": [
+            "https://tgo-mas.github.io/PWeb/React/ReactIntro/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-react-00?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/React/ReactIntro"
         ],
@@ -109,6 +118,7 @@
         "id": 10,
         "titulo": "Receita 10 - Introdução ao JSX",
         "links": [
+            "https://tgo-mas.github.io/PWeb/React/React2/",
             "https://sites.google.com/view/fabricio10/página-inicial/cursos/pweb/receita-react-01?authuser=0",
             "https://github.com/tgo-mas/PWeb/tree/main/React/React2"
         ],

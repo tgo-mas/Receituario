@@ -44,9 +44,26 @@
     margin: 0.75em;
     margin-right: 5%;
     background-color: #BBB;
-    cursor: pointer;
+    justify-content: space-between;
 }
 
 .receita-card:hover{
     background-color: #9747FFAA;
+}
+
+.links-receita{
+    display: flex;
+    gap: 5px;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+.links-receita a{
+    margin: 5px;
+}
+
+.links-receita a i {
+    color: #000;
+    font-weight: 600;
 }

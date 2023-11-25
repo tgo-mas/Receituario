@@ -12,17 +12,17 @@ export default function Introducao() {
 
     return (
         <main className="intro mt-3 p-4">
-            <Container className="m-3 d-flex align-items-center intro-header">
+            <Container className="m-3 ps-4 pe-4 d-flex align-items-center intro-header">
                 <h3>Olá, eu sou Thomas e este é meu Receituário.</h3>
                 <table className="ms-auto me-3 table-receitas">
                     <tbody>
                         <tr>
                             <th>Receitas concluídas</th>
-                            <td>x</td>
+                            <td>10</td>
                         </tr>
                         <tr>
                             <th>Projetos em exibição</th>
-                            <td>y</td>
+                            <td>n</td>
                         </tr>
                     </tbody>
                 </table>

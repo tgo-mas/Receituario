@@ -24,7 +24,14 @@ export default function ListaReceitas() {
                     </span> */}
                 </div>
                 <Container className="lista-container">
-                    {receitas.map((receita) => <span className="receita-card" onClick={() => navigate(`/receita/${receita.id}`)} key={receita.id}><h4>{receita.titulo}</h4></span>)}
+                    {receitas.map((receita) => <span className="receita-card" key={receita.id}>
+                        <h4>{receita.titulo}</h4>
+                        <span className="links-receita">
+                            <a href={receita.links[0]} target="_blank"><i class="bi bi-journal-check"></i></a>
+                            <a href={receita.links[1]} target="_blank"><i class="bi bi-journal-text"></i></a>
+                            <a href={receita.links[2]} target="_blank"><i class="bi bi-journal-code"></i></a>
+                        </span>
+                    </span>)}
                 </Container>
             </Container>
         </main>
